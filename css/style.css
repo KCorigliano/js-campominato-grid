@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-game{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.button{
+    font-size: 24px;
+    background-color: chartreuse;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.lvl1{
+    width: 804px;
+    border: 2px solid black;
+}
+
+.lvl2{
+    width: 724px;
+    border: 2px solid black;
+}
+
+.lvl3{
+    width: 564px;
+    border: 2px solid black;
+}
+
+.azure{
+    background-color: darkturquoise;
+}
+
+.hidden{
+    display: none;
+}
